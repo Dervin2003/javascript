@@ -72,3 +72,9 @@ console.log("Multiply : "+l*m);
 console.log("Divide : "+l/m);
 console.log("Modulus : "+l%m);
 console.log("Exponential : "+l**m);
+
+console.log("null==undefined");
+console.log("null===undefined");
+console.log('5'-2);
+
+
