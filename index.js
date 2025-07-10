@@ -237,12 +237,12 @@
 //     it++;
 // }while(it<10);
 
-for(let i=0; i<10; i++){
-    console.log(i) //print from 1-9 for continue and prints upto 5 for break
-    if(i===5){
-        // continue; // Skips 5th iteration and continues with the loop
-        break;// Skips the rest of the loop when i is 5
-    }
-    console.log(i); // This will print numbers from 0 to 9, skipping 5 for continue and print upto 4 for break
-}
+// for(let i=0; i<10; i++){
+//     console.log(i) //print from 1-9 for continue and prints upto 5 for break
+//     if(i===5){
+//         // continue; // Skips 5th iteration and continues with the loop
+//         break;// Skips the rest of the loop when i is 5
+//     }
+//     console.log(i); // This will print numbers from 0 to 9, skipping 5 for continue and print upto 4 for break
+// }
 

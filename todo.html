@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+</head>
+<body>
+    <input id="input1" type="number">
+    <input id="input2" type="number">
+    <button type="submit" onclick="test()">Submit</button>
+    <button id="myBtn"> Event Listener</button>
+    <p></p>
+
+    <script>
+        function test(){
+            let in1=document.getElementById("input1");
+            let in2=document.getElementById("input2");
+            let in1El=parseInt(in1.value);
+            let in2El=parseInt(in2.value);
+            
+            console.log(in1El+in2El);
+        }
+
+        const btn = document.getElementById("myBtn");
+        btn.addEventListener("click", function() {
+            alert("Button clicked!");
+        });
+
+    
+    </script>
+
+</body>
+</html>
