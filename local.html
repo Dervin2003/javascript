@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="local-text"></p> -->
+    <input type="number" id="input1" >
+    <button type="submit" onclick="myFn()">Click here</button>
+    <script>
+        // const heading=localStorage.setItem("Name","Dervin")
+        // const value=localStorage.getItem("Name")
+        // let localEl=document.getElementById("local-text")
+        // localStorage.removeItem("name")
+        // localEl.innerText=value;
+        localStorage.clear();
+
+        let count=1;
+        function myFn(){
+            let inputEl=document.getElementById("input1").value;
+            const some=localStorage.setItem(`Input${count}`,inputEl);
+            count++;
+        }
+
+        const something=sessionStorage.setItem("Name","Dervin")
+
+
+        //spread operator
+        arr1=[1,2,3,4];
+        arr2=[5,6,7,8];
+        arr3=[...arr1,...arr2];
+        console.log(arr3);
+
+        const[x,y,...z]=arr3;
+        console.log(z[0])
+        
+    </script>
+</body>
+</html>
